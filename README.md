@@ -12,7 +12,9 @@ The random direction(s) and loss surface values are stored in HDF5 (`.h5`) files
 
 ## Setup
 
-**Environment**: One or more multi-GPU node(s) with the following software/libraries installed:
+**Environment**: Run `conda env create -f environment.yml` to create environment `ll-env`.
+
+One or more multi-GPU node(s) with the following software/libraries installed:
 - [PyTorch 0.4](https://pytorch.org/)
 - [openmpi 3.1.2](https://www.open-mpi.org/)
 - [mpi4py 2.0.0](https://mpi4py.scipy.org/docs/usrman/install.html)
